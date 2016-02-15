@@ -8,7 +8,7 @@ button_clicked (GtkButton *button,
 }
 
 GObject *
-G_PASTE(test_gtk,VERSION) (GObject *other_label)
+test_gtk3 (GObject *other_label)
 {
   GtkWidget *window, *label, *vbox, *button, *res;
   char *str;
